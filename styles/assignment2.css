@@ -1,6 +1,8 @@
+/* additional codes started here */
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .inter-font {
@@ -9,6 +11,11 @@
   font-weight: 400;
   font-style: normal;
 }
+/* additional codes ended here */
+
+
+
+
 
 /* codes for heading section */
 .headerflex{
@@ -72,4 +79,94 @@
         cursor: pointer;
     }
 }
+/* codes for header section ended here */
 
+
+
+
+
+
+/* codes for hero section */
+
+/* code for hero section ends here */
+
+
+
+
+
+
+/* codes for about section */
+.about{
+    background-color: #1A0B2E;
+    padding: 50px 200px 120px 200px;
+}
+
+.divider{
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.aboutdescription{
+    max-width: 1200px;
+    margin: 0 auto 80px auto;
+    text-align: center;
+    color: #ffffff;
+}
+.aboutdescription h2{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+.aboutdescription p{
+    line-height: 1.8;
+    max-width: 800px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0 auto;
+    color: rgb(177, 175, 175);
+}
+.about-stats{
+    display: flex;
+    max-width: 1200px;
+    margin: 80px auto 0 auto;
+    justify-content: center;
+    color: #00FF88;
+    gap: 80px;
+}
+.stats-container h2{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+.span-class{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(177, 175, 175);;
+}
+@media screen and (max-width: 576px){
+    .about{
+        padding: 40px 20px;
+    }
+    .aboutdescription h2{
+        font-size: 2rem;
+    }
+    .aboutdescription{
+        margin-bottom: 40px;
+    }
+    .about-stats{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px 20px;
+        text-align: center;
+    }
+    .stats-container h2{
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
+    .span-class{
+        font-size: 0.8rem;
+    }
+}
+/* code for about section ends here */
