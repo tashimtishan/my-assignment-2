@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* codes for heading section */
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #412567;
+    padding: 24px 200px;
+}
+.logotech{
+    color: white;
+}
+.logowave{
+    background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.primary-button{
+    background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10000px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hamburgermenu{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .headerflex{
+        padding: 16px 20px;
+    }
+    .navbar,.primary-button{
+        display: none;
+    }
+    .hamburgermenu{
+        display: block;
+        width: 25px;
+        height: auto;
+        cursor: pointer;
+    }
+}
+
