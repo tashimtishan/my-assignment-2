@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #412567;
+    background-color: #1A0B2E;
     padding: 24px 200px;
 }
 .logotech{
@@ -88,6 +88,122 @@
 
 /* codes for hero section */
 
+.hero{
+    background-image: url(../B13-A02-TechWave/assets/hero-bg.png);
+    padding: 101px 20px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero-container{
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-logo-stack{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+}
+.layer-circle{
+    width: 100%;
+    height: auto;
+}
+.layer-mic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+
+}
+.badge{
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    background-color: #00FF88;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    box-shadow: 0 0 15px rgba(0,255,132,0.6);
+}
+.hero-text h1{
+    margin-bottom: 8px;
+    font-weight: 800;
+    font-size: 3.75rem;
+}
+.hero-text p{
+    margin-bottom: 24px;
+    max-width: 550px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(177, 175, 175);
+}
+.hero-actions{
+    display: flex;
+    gap: 8px;
+}
+.btn{
+    padding: 12px 20px;
+    border-radius: 10000px;
+    font-weight: 600;
+    font-size: 1rem;
+     background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
+     color: white;
+     border: none;
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     cursor: pointer;
+
+}
+.btn-gradient{
+    padding: 12px 20px;
+    border-radius: 10000px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 2px solid #00FF88;
+    color: #00FF88;
+    background: transparent;
+    cursor: pointer;
+}
+@media screen and (max-width:576px){
+    .hero{
+        padding: 60px 20px;
+        height: auto;
+        min-height: 100vh;
+    }
+    .hero-logo-stack{
+        width: 220px;
+        height: 220px;
+    }
+    .layer-mic{
+        width: 60px;
+    }
+    .badge{
+        font-size: 14px;
+        padding: 5px 12px;
+        right: 15px;
+    }
+    .hero-text h1{
+        font-size: 2.5rem;
+    }
+    .hero-text p{
+        font-size: 0.95rem;
+        padding: 0 10px;
+    }
+}
 /* code for hero section ends here */
 
 
@@ -251,33 +367,4 @@
         text-align: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* codes for why section ends here */
