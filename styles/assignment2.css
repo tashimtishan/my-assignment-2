@@ -530,3 +530,75 @@
     }
 }
 /* codes for features and host section ends here */
+
+
+
+
+
+/* codes for footer section starts here */
+
+footer{
+    background-image: url(../B13-A02-TechWave/assets/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 120px 120px;
+    text-align: center;
+}
+.footer-content{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 32px;
+}
+.footer-icons p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+@media (max-width: 576px){
+    footer{
+        padding: 40px 20px;
+    }
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        justify-content: center;
+        gap: 16px 16px;
+    }
+    .footer-icons p{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 0;
+        font-size: 16px;
+    }
+    .footer-icons img{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* codes for footer section ends here */
