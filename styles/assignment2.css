@@ -602,6 +602,76 @@ footer{
 
 
 
+/* some additional tweaks for medium devices */
+@media screen and (min-width: 577px) and (max-width: 992px){
+    /* header tweaks */
+    .headerflex{
+        padding: 20px 60px;
+    }
+    .navbar ul{
+        gap: 20px;
+    }
+    .primary-button{
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+    /* hero tweaks */
+    .hero-container{
+        max-width: 450px;
+    }
+    .hero-text h1{
+        font-size: 3rem;
+    }
+    .hero-text p{
+        font-size: 0.95rem;
+    }
+    .hero-logo-stack{
+        width: 280px;
+        height: 280px;
+    }
+    /* about tweaks */
+    .about-stats{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        text-align: center;
+    }
+    /* why section tweaks */
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .whysection-header{
+        font-size: 2.5rem;
+    }
+    /* features and host section tweaks */
+    .features-card-container{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .features-card{
+        width: 300px;
+    }
+    .host-container{
+        flex-direction: row;
+        gap: 20px;
+        padding: 30px 40px;
+    }
+    /* footer section tweaks */
+    footer{
+        padding: 80px 40px;
+    }
+    .footer-icons{
+        gap: 30px;
+    }
+}
+/* tweaks for medium devices ends here */
+
+
+
+
+
 
 
 
@@ -619,4 +689,4 @@ footer{
 
 
 
-        /* ----this is the end.everything is done---- */
+                                       /* ----this is the end.everything is done---- */
