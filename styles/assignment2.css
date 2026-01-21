@@ -402,6 +402,8 @@
     border: rgba(53, 17, 101, 0.4);
     border-radius: 40px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .video-wrapper{
     width: 100%;
@@ -414,8 +416,9 @@
 }
 .card-content{
     padding: 24px 24px;
+    display: flex;
     flex-direction: column;
-    height: 200px;
+    flex-grow: 1;
 }
 .card-header{
     color: white;
@@ -595,6 +598,14 @@ footer{
 
 
 
+
+
+
+
+
+
+
+/* additional animations code for our website */
 @keyframes float{
     0% {transform: translate(0px);}
     50% {transform: translate(-8px);}
@@ -605,3 +616,7 @@ footer{
     50% {transform: scale(1.1);}
     100% {transform: scale(1);}
 }
+
+
+
+        /* ----this is the end.everything is done---- */
