@@ -60,6 +60,7 @@
     font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
+    animation: float 3s ease-in-out infinite;
 }
 
 .hamburgermenu{
@@ -134,6 +135,7 @@
     padding: 8px 16px;
     border-radius: 1000px;
     box-shadow: 0 0 15px rgba(0,255,132,0.6);
+    animation: pulse-soft 2s infinite;
 }
 .hero-text h1{
     margin-bottom: 8px;
@@ -589,16 +591,17 @@ footer{
         height: 24px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* codes for footer section ends here */
+
+
+
+@keyframes float{
+    0% {transform: translate(0px);}
+    50% {transform: translate(-8px);}
+    100% {transform: translate(0px);}
+}
+@keyframes pulse-soft {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
