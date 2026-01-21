@@ -380,6 +380,7 @@
 .featured-episodes{
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 .featured-title{
     font-weight: 700;
@@ -435,7 +436,72 @@
     gap: 6px;
 }
 
-
+/* HOST SECTION. */
+.ourhost{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.host-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.host-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 50px;
+    background:rgba(53, 17, 101, 0.4);;
+    border-radius: 40px;
+}
+.host-image{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.host-content h3{
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+.host-content p{
+    color: rgb(177, 175, 175);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    max-width: 896px;
+    margin-bottom: 20px;
+}
+.host-icons{
+    display: flex;
+    gap: 14px;
+}
+.icon-circle{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #533C72;
+    background-color: transparent;
+}
+.icon-circle img{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+.host-icons img{
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.host-icons img:hover{
+    transform: scale(1.15);
+    opacity: 0.85;
+}
 
 @media screen and (max-width:576px){
     .features-and-host-section{
@@ -447,7 +513,20 @@
     }
     .featured-title{
         font-size: 1.5rem;
-     
-        
+    }
+    .host-container{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .host-container p{
+        max-width: 100%;
+    }
+    .host-icons{
+        justify-content: center;
+    }
+    .host-title{
+        font-size: 2rem;
     }
 }
+/* codes for features and host section ends here */
