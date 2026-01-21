@@ -93,7 +93,7 @@
     padding: 101px 20px;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 760px;
     display: flex;
     justify-content: center;
     color: white;
@@ -182,7 +182,7 @@
     .hero{
         padding: 60px 20px;
         height: auto;
-        min-height: 100vh;
+        min-height: 466px;
     }
     .hero-logo-stack{
         width: 220px;
@@ -368,3 +368,86 @@
     }
 }
 /* codes for why section ends here */
+
+
+
+
+/* codes for features and host section */
+.features-and-host-section{
+    padding: 120px 200px;
+    background-color: #1A0B2E;
+}
+.featured-episodes{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.featured-title{
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.features-card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.features-card{
+    width: 380px;
+    background: rgba(53, 17, 101, 0.4);
+    border: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    overflow: hidden;
+}
+.video-wrapper{
+    width: 100%;
+    height: 220px;
+}
+.video-wrapper iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.card-content{
+    padding: 24px 24px;
+    flex-direction: column;
+    height: 200px;
+}
+.card-header{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    max-width: 332px;
+}
+.description{
+    color: rgb(177, 175, 175);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    max-width: 332px;
+}
+.green-text{
+    color: #00FF88;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+@media screen and (max-width:576px){
+    .features-and-host-section{
+        padding: 40px 20px;
+    }
+    .features-card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured-title{
+        font-size: 1.5rem;
+     
+        
+    }
+}
